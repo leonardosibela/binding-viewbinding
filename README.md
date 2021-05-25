@@ -2,7 +2,7 @@
 
 An example explaining how to use view binding, an null safe and type safe way to bind layout resources views.
 
-##Setting up viewbinding
+## Setting up viewbinding
 
 The first thing we'll have to do is to setup the view binding to our project. We will configure it on the build.gradle file from our app module:
 
