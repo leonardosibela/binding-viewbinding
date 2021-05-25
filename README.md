@@ -15,7 +15,7 @@ android {
 }
 ```
 
-##Binding views
+## Binding views
 
 Then, every resource file created will have a generated class with the same name, in camelcase, with a Binding prefix. This class will have as atributes all the views from our layout file. To instanciate this class on an activity, we do it like this:
 
@@ -31,7 +31,7 @@ override fun onCreate(savedInstanceState: Bundle?) {
 }
 ```
 
-##Ignoring views
+## Ignoring views
 
 What we can also do is to ignore a view we do not want to see on our binding class. We do it by setting the tools:viewBindingIgnore property to true on our view:
 
